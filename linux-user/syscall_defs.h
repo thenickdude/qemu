@@ -2874,3 +2874,7 @@ struct target_user_cap_data {
 #define TARGET_SYSLOG_ACTION_SIZE_BUFFER   10
 
 #endif
+
+/* mtd ioctls */
+
+#define TARGET_MEMGETINFO   TARGET_IOR('M', 1, struct mtd_info_user)
