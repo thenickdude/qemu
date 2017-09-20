@@ -110,6 +110,7 @@ int __clone2(int (*fn)(void *), void *child_stack_base,
 #include <linux/route.h>
 #include <linux/filter.h>
 #include <linux/blkpg.h>
+#include <mtd/mtd-abi.h>
 #include "linux_loop.h"
 #include "uname.h"
 

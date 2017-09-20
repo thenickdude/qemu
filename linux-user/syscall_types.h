@@ -253,3 +253,13 @@ STRUCT(blkpg_ioctl_arg,
        TYPE_INT, /* flags */
        TYPE_INT, /* datalen */
        TYPE_PTRVOID) /* data */
+
+/* mtd nand ioctls */
+STRUCT(mtd_info_user,
+       TYPE_CHAR, /* type */
+       TYPE_INT, /* flags */
+       TYPE_INT, /* size */
+       TYPE_INT, /* erasesize */
+       TYPE_INT, /* writesize */
+       TYPE_INT, /* oobsize */
+       TYPE_ULONGLONG) /* padding */

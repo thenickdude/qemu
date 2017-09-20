@@ -386,3 +386,5 @@
                 MK_PTR(MK_STRUCT(STRUCT_rtentry)))
   IOCTL_SPECIAL(SIOCDELRT, IOC_W, do_ioctl_rt,
                 MK_PTR(MK_STRUCT(STRUCT_rtentry)))
+
+  IOCTL(MEMGETINFO, IOC_R, MK_PTR(MK_STRUCT(STRUCT_mtd_info_user)))

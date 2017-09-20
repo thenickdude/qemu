@@ -2564,3 +2564,7 @@ struct target_user_cap_data {
     uint32_t permitted;
     uint32_t inheritable;
 };
+
+/* mtd ioctls */
+
+#define TARGET_MEMGETINFO   TARGET_IOR('M', 1, struct mtd_info_user)
